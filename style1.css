@@ -1,0 +1,39 @@
+*{
+margin: 0px;padding: 0px;box-sizing: border-box;
+}
+
+body{
+ background: rgba(235, 137, 151, 0.726);  
+ margin: 250px;
+}
+
+.parent, .child, .grandchild{
+border: 1px solid black;
+}
+
+.parent{
+    width: 250px;
+    height: 250px;
+    background: #53cdd1b4;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.child{
+    width: 110px;
+    height: 110px;
+    background: rgb(104, 145, 221);
+    margin: auto;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.grandchild{
+    width: 40px;
+    height: 40px;
+    background: yellowgreen;
+    margin: auto;
+}
